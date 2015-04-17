@@ -11,6 +11,21 @@
 # using avconv.
 # ---------------------------------------------
 
+# Task-List {{{1
+# @TODO: Add better demo (start/end) management.
+# @TODO: Add better path management test and setup a target elsewhere.
+# @TODO: Add better probe mode to return simple information (duration, etc).
+# @TODO: Add more check based on the probing the source vs demo/poster/bitrate.
+# @TODO: Add better log, do not output avconv interactive progress.
+# @TODO: Add some bench for the log, duration, size of the output.
+# @TODO: Add a local mail on error.
+# @TODO: Add installation process in the README.
+# @TODO: Test on Mac Os.
+# @TODO: Add gif mode, see http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html
+# @TODO: Add better watermark process.
+# @TODO: Try to find a better way to detect good time for poster generation (not blank).
+# @TODO: Add text to the poster.
+
 # Error Codes {{{1
 # 0 - Ok
 # 1 - Error in cmd / options.

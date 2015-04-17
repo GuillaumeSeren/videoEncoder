@@ -1,7 +1,6 @@
 videoEncoder
 ============
-Simple videoEncoder around bash and avconv.
-I made this script to encode HTML5 video.
+Simple videoEncoder around bash and avconv, created around the need to encode HTML5 video.
 
 ## Why ?
 Encode video can be tricky, I like to wrap-up my preset of avconv in a script,
@@ -14,7 +13,7 @@ around that, and that's it, like:
 - Make a demo sample (3s).
 - Take a screenshot to create a poster.
 - Add a watermark, on the video.
-- Configure bitrate, size, cucurrent threads.
+- Configure bitrate, size, concurrent threads.
 - Output a log.
 
 ## Participate !
